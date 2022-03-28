@@ -4,13 +4,13 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from src.classes.bicycle import Bicycle
+from src.classes.car import Car
 
+bicicle1 = Bicycle("BMX", "100", "0", "1")
+bicicle1.displayData()
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print ("carro run run")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+car1 = Car("Toyota", "1000", "1", "1")
+car1.displayData()
